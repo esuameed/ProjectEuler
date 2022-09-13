@@ -20,7 +20,7 @@ int main() {
 
     i++;
   }
-  fprintf(fp, "Sum of all multiples of 3 or 5: %ld\n", total);
+  fprintf(fp, "Sum of all multiples of 3 or 5: %ld\n", total);// print in file
   fclose(fp); //Don't forget to close the file when finished
-  printf("The sum of the multiples of 3 or 5 below 10000 is : %ld", total);
+  printf("The sum of the multiples of 3 or 5 below 10000 is : %ld", total); // print total in screen
 }
