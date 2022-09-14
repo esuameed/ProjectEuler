@@ -17,7 +17,7 @@ def sum_divided_by(num,n):
     >>> sum_divided_by(10,2)
     30.0
     '''
-    p = (num-1)//n # num-1 because the multiples not include less num
+    p = (num-1)//n # num-1 because the multiples not includes the integer num
     return n*p*(1+p)*0.5
   
 print(sum_divided_by(1000,3)+sum_divided_by(1000,5)- sum_divided_by(1000,15)) # We have to subtract the sum of multiples of 3 AND 5, 
