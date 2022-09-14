@@ -1,4 +1,4 @@
-<font size="3"> Suppose we want to find the sum of multiples of **`3`**  and **`5`** below **`1000`**. We'll have: </font>
+<font size="3"> Suppose we want to find the sum of multiples of **`3`**  or **`5`** below **`1000`**. We'll have: </font>
 
 $$3 + 6 + 9 + 12 + 15 + ... +  999 = 3 * (1 + 2 + 3 + 4 + 5 + ... + 333) = 3*[\frac{333*(333+1)}{2}]$$
 
