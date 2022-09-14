@@ -10,7 +10,7 @@ class program
 {
     public static void Main()
     {
-      List<double> multiples = new List<double>();
+      
       long x=0;
       long sum=0;
 
@@ -20,14 +20,11 @@ class program
         {
             if(x%3==0 || x%5==0)
               {
-                  //file.WriteLine(x);
                   sw.WriteLine(x);
-                  multiples.Add(x);
                   sum+=x;
               }
         }
         sw.Close();
-        Console.WriteLine("Number of Multiples in Range Is: " + multiples.Count);
         Console.WriteLine("Lines written to file successfully.");
 
         Console.WriteLine("The sum of all divisors of 3 or 5 until 1000 is {0}",sum);
