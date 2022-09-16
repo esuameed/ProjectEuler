@@ -1,5 +1,5 @@
 # ProjectEuler
-Project Euler solutions in C/C++/Perl/Ruby/Csharp/Python
+
 This is a Project Euler's solution problems with some questions solved in many funny programming languages. The idea is to share and learn with others
 nice tips and programming techniques.
 
